@@ -1,0 +1,164 @@
+{
+  "subjects_data": [
+    {
+      "name": "bed",
+      "type": "bed",
+      "dims": [
+        1.98,
+        2.59875,
+        0.556875
+      ],
+      "x": [
+        -7.4
+      ],
+      "y": [
+        0.644689
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "pillow",
+      "type": "pillow",
+      "dims": [
+        0.0891,
+        0.0567,
+        0.01944
+      ],
+      "x": [
+        -7.9
+      ],
+      "y": [
+        0.644689
+      ],
+      "z": [
+        1.11375
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "table",
+      "type": "table",
+      "dims": [
+        0.551072,
+        1.339668,
+        0.553109
+      ],
+      "x": [
+        -7.4
+      ],
+      "y": [
+        -1.355311
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "lamp",
+      "type": "lamp",
+      "dims": [
+        0.17325,
+        0.17325,
+        0.23925
+      ],
+      "x": [
+        -6.517895
+      ],
+      "y": [
+        -1.355311
+      ],
+      "z": [
+        0.603109
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "chair",
+      "type": "chair",
+      "dims": [
+        0.537819,
+        0.639423,
+        0.304608
+      ],
+      "x": [
+        -5.972968
+      ],
+      "y": [
+        -1.355311
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "camera_data": {
+    "camera_elevation": 0.13962634015954636,
+    "lens": 55.0,
+    "global_scale": 1.0
+  },
+  "surrounding_prompt": "cozy indoor bedroom with soft ambient lighting.",
+  "inference_params": {
+    "height": 1024,
+    "width": 1024,
+    "seed": 42,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 25,
+    "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"
+  },
+  "checkpoint": "seethrough3d_release/seethrough3d_release"
+}

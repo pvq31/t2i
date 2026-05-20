@@ -1,0 +1,135 @@
+{
+  "subjects_data": [
+    {
+      "name": "refrigerator",
+      "type": "refrigerator",
+      "dims": [
+        0.85,
+        0.75,
+        1.85
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        -0.8
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "cabinet",
+      "type": "cabinet",
+      "dims": [
+        0.95,
+        0.55,
+        0.95
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        0.75
+      ],
+      "z": [
+        0.0648
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "microwave",
+      "type": "microwave",
+      "dims": [
+        0.34,
+        0.24,
+        0.22
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        0.6
+      ],
+      "z": [
+        1.0148
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "bowl",
+      "type": "bowl",
+      "dims": [
+        0.18,
+        0.18,
+        0.1
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        0.98
+      ],
+      "z": [
+        1.0148
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "camera_data": {
+    "camera_elevation": 0.13962634015954636,
+    "lens": 50.0,
+    "global_scale": 1.0
+  },
+  "surrounding_prompt": "a realistic indoor kitchen setting with neutral lighting.",
+  "inference_params": {
+    "height": 1024,
+    "width": 1024,
+    "seed": 42,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 25,
+    "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"
+  },
+  "checkpoint": "seethrough3d_release/seethrough3d_release"
+}

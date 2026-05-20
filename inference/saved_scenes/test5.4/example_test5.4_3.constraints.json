@@ -1,0 +1,173 @@
+{
+  "actions": [
+    {
+      "tool": "project_dims",
+      "object": "refrigerator",
+      "field": "dims",
+      "old": [
+        0.77625,
+        0.87975,
+        1.91475
+      ],
+      "new": [
+        0.85,
+        0.75,
+        1.85
+      ],
+      "reason": "visual_target_dims"
+    },
+    {
+      "tool": "project_dims",
+      "object": "cabinet",
+      "field": "dims",
+      "old": [
+        0.102465,
+        0.065205,
+        0.6075
+      ],
+      "new": [
+        0.95,
+        0.55,
+        0.95
+      ],
+      "reason": "visual_target_dims"
+    },
+    {
+      "tool": "project_dims",
+      "object": "microwave",
+      "field": "dims",
+      "old": [
+        0.111375,
+        0.070875,
+        0.0648
+      ],
+      "new": [
+        0.34,
+        0.24,
+        0.22
+      ],
+      "reason": "visual_target_dims"
+    },
+    {
+      "tool": "project_dims",
+      "object": "bowl",
+      "field": "dims",
+      "old": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "new": [
+        0.18,
+        0.18,
+        0.1
+      ],
+      "reason": "visual_target_dims"
+    },
+    {
+      "tool": "set_param",
+      "object": "microwave",
+      "field": "z[0]",
+      "old": 0.0,
+      "new": 1.0148,
+      "reason": "support(microwave,cabinet):support_z"
+    },
+    {
+      "tool": "set_param",
+      "object": "bowl",
+      "field": "z[0]",
+      "old": 0.0648,
+      "new": 1.0148,
+      "reason": "support(bowl,cabinet):support_z"
+    },
+    {
+      "tool": "set_param",
+      "object": "microwave",
+      "field": "y[0]",
+      "old": 1.019967,
+      "new": 0.869967,
+      "reason": "spread_on_support(microwave,cabinet):slot_y"
+    },
+    {
+      "tool": "set_param",
+      "object": "bowl",
+      "field": "y[0]",
+      "old": 1.050655,
+      "new": 1.249967,
+      "reason": "spread_on_support(bowl,cabinet):slot_y"
+    },
+    {
+      "tool": "set_param",
+      "object": "refrigerator",
+      "field": "x[0]",
+      "old": -6.6,
+      "new": -6.0,
+      "reason": "center_scene_component:x",
+      "component_delta": 0.6
+    },
+    {
+      "tool": "set_param",
+      "object": "refrigerator",
+      "field": "y[0]",
+      "old": -0.530033,
+      "new": -0.8,
+      "reason": "center_scene_component:y",
+      "component_delta": -0.269967
+    },
+    {
+      "tool": "set_param",
+      "object": "cabinet",
+      "field": "x[0]",
+      "old": -6.6,
+      "new": -6.0,
+      "reason": "center_scene_component:x",
+      "component_delta": 0.6
+    },
+    {
+      "tool": "set_param",
+      "object": "cabinet",
+      "field": "y[0]",
+      "old": 1.019967,
+      "new": 0.75,
+      "reason": "center_scene_component:y",
+      "component_delta": -0.269967
+    },
+    {
+      "tool": "set_param",
+      "object": "microwave",
+      "field": "x[0]",
+      "old": -6.6,
+      "new": -6.0,
+      "reason": "center_scene_component:x",
+      "component_delta": 0.6
+    },
+    {
+      "tool": "set_param",
+      "object": "microwave",
+      "field": "y[0]",
+      "old": 0.869967,
+      "new": 0.6,
+      "reason": "center_scene_component:y",
+      "component_delta": -0.269967
+    },
+    {
+      "tool": "set_param",
+      "object": "bowl",
+      "field": "x[0]",
+      "old": -6.6,
+      "new": -6.0,
+      "reason": "center_scene_component:x",
+      "component_delta": 0.6
+    },
+    {
+      "tool": "set_param",
+      "object": "bowl",
+      "field": "y[0]",
+      "old": 1.249967,
+      "new": 0.98,
+      "reason": "center_scene_component:y",
+      "component_delta": -0.269967
+    }
+  ],
+  "predicate_count": 3
+}

@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and temp
+*.log
+.DS_Store
+tmp.png
+*/tmp.png
+
+# Gradio temp/result files
+gradio_tmp/
+inference/gradio_tmp/
+inference/gradio_files/
+inference/gradio_result_files/
+
+# Experiment outputs
+runs/
+outputs/
+checkpoints/
+wandb/
+# Local Git/LFS recovery backups
+.git_backup_lfs_broken/
+
+# Large model files
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.bin
+
+# Optional generated inference images
+inference/Image0001.png
+inference/cv_render.jpg
+inference/final_render.jpg
+inference/model_condition.jpg

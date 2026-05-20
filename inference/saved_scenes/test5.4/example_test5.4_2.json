@@ -1,0 +1,193 @@
+{
+  "subjects_data": [
+    {
+      "name": "computer",
+      "type": "computer",
+      "dims": [
+        0.1485,
+        0.054,
+        0.108
+      ],
+      "x": [
+        -7.0
+      ],
+      "y": [
+        0.525267
+      ],
+      "z": [
+        0.75
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "keyboard",
+      "type": "keyboard",
+      "dims": [
+        0.055688,
+        0.018563,
+        0.01
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        0.525267
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "mouse",
+      "type": "mouse",
+      "dims": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "x": [
+        -6.75
+      ],
+      "y": [
+        1.325267
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "office chair",
+      "type": "office chair",
+      "dims": [
+        0.850365,
+        0.903493,
+        1.314437
+      ],
+      "x": [
+        -5.8
+      ],
+      "y": [
+        0.525267
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "bookshelf",
+      "type": "bookshelf",
+      "dims": [
+        1.279575,
+        0.407137,
+        2.210175
+      ],
+      "x": [
+        -8.2
+      ],
+      "y": [
+        -0.874733
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        1.5707963267948966
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "desk 物体",
+      "type": "desk",
+      "dims": [
+        1.134,
+        0.567,
+        0.3078
+      ],
+      "x": [
+        -3.616
+      ],
+      "y": [
+        0.405267
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "camera_data": {
+    "camera_elevation": 0.13962634015954636,
+    "lens": 50.0,
+    "global_scale": 1.0
+  },
+  "surrounding_prompt": "realistic indoor office/study room lighting, neutral walls and floor.",
+  "inference_params": {
+    "height": 1024,
+    "width": 1024,
+    "seed": 42,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 25,
+    "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"
+  },
+  "checkpoint": "seethrough3d_release/seethrough3d_release"
+}

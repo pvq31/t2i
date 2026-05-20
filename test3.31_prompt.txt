@@ -1,0 +1,170 @@
+1
+场景布局 prompt
+
+中文：
+一辆 bulldozer 位于画面中央，一张 table 在 bulldozer 的左边，一把 office chair 在 bulldozer 的右边。一辆 bicycle 在 bulldozer 的前方，一只 flamingo 在 bicycle 的左边，一只 zebra 在 bicycle 的右边。一只 sparrow 位于 bulldozer 的上方区域。
+
+English:
+A bulldozer is positioned at the center of the image. A table is on the left of the bulldozer, and an office chair is on the right. A bicycle is placed in front of the bulldozer. A flamingo is to the left of the bicycle, and a zebra is to the right of the bicycle. A sparrow appears in the upper area above the bulldozer.
+
+生图 prompt
+
+中文：
+一张超现实但非常真实的高质量照片，构图新奇，光线通透，空气清澈，整体氛围安静而梦幻，细节丰富，具有强烈视觉反差。
+
+English:
+A surreal yet highly realistic high-quality photo PLACEHOLDER,, clear luminous lighting, crisp air, a quiet and dreamy atmosphere, rich details, and strong visual contrast.
+
+
+2
+场景布局 prompt
+
+中文：
+图中中央有一辆 bus。一辆 van 位于 bus 的后方，一辆 suv 位于 bus 的前方偏右位置。一只 pigeon 在 bus 的前方地面上，一只 sparrow 在 bus 的左前方，一只 crow 位于 bus 上方的空中。
+
+English:
+In the image, there is a bus in the center. A van is positioned behind the bus, and an suv is located in front-right of the bus. A pigeon is on the ground in front of the bus, a sparrow is at the front-left of the bus, and a crow is flying in the air above the bus.
+
+生图 prompt
+
+中文：
+a photo of PLACEHOLDER, 真实的城市纪实风格，光线柔和，空气略带清晨感，画面自然干净，细节清楚，整体氛围平静。
+
+English:
+a photo of PLACEHOLDER, realistic urban documentary style, soft lighting, a slight early-morning freshness in the air, a clean natural composition, clear details, and a calm overall mood.
+
+3
+场景布局 prompt
+
+中文：
+图中中央有一辆 tractor。一头 cow 站在 tractor 的前方，一只 goat 在 cow 的左边，一只 sheep 在 cow 的右边。一辆 pickup truck 位于 tractor 的左后方，一辆 bulldozer 位于 tractor 的右后方。
+
+English:
+In the image, there is a tractor in the center. A cow stands in front of the tractor, with a goat on the left of the cow and a sheep on the right of the cow. A pickup truck is located at the back-left of the tractor, and a bulldozer is located at the back-right of the tractor.
+
+生图 prompt
+
+中文：
+a photo of PLACEHOLDER, 柔和的日间光线，空气清新，乡村氛围自然朴实，色彩真实不过分饱和，细节丰富，画面非常写实。
+
+English:
+a photo of PLACEHOLDER, soft daytime lighting, fresh air, a natural and simple rural atmosphere, realistic colors without oversaturation, rich details, and a highly lifelike image.
+
+4
+场景布局 prompt
+
+中文：
+图中中央有一只 elephant。一只 giraffe 位于 elephant 的左后方，一匹 zebra 位于 elephant 的右后方。一只 flamingo 站在 elephant 的前方偏左位置，一只 deer 站在 elephant 的前方偏右位置。
+
+English:
+In the image, there is an elephant in the center. A giraffe is positioned at the back-left of the elephant, and a zebra is positioned at the back-right of the elephant. A flamingo stands at the front-left of the elephant, and a deer stands at the front-right of the elephant.
+
+生图 prompt
+
+中文：
+a photo of PLACEHOLDER, 温暖而自然的户外光线，空间开阔，空气清透，细节生动，整体氛围宁静且真实。
+
+English:
+a photo of PLACEHOLDER, warm and natural outdoor lighting, an open sense of space, crisp air, vivid details, and a peaceful yet realistic atmosphere.
+
+5
+场景布局 prompt
+
+中文：
+图中中央有一辆 jeep。一个 man 站在 jeep 的左侧，一辆 motorbike 停在 jeep 的右侧。一只 dog 位于 jeep 的前方，一只 fox 在 dog 的左边，一只 wolf 在 dog 的右边。
+
+English:
+In the image, there is a jeep in the center. A man stands on the left side of the jeep, and a motorbike is parked on the right side of the jeep. A dog is positioned in front of the jeep, with a fox to the left of the dog and a wolf to the right of the dog.
+
+生图 prompt
+
+中文：
+a photo of PLACEHOLDER, 电影感写实风格，光影层次清晰，空气中带有轻微紧张感，细节锐利，整体氛围真实而有故事感。
+
+English:
+a photo of PLACEHOLDER, cinematic realistic style, clear layers of light and shadow, a slight sense of tension in the air, sharp details, and a realistic scene with strong storytelling.
+
+6
+场景布局 prompt
+
+中文：
+图中中央有一辆 ferrari。一辆 bugatti 位于 ferrari 的左边，一辆 lamborghini 位于 ferrari 的右边。一个 man 站在 ferrari 的前方，一把 office chair 在 man 的左边，一张 table 在 man 的右边。
+
+English:
+In the image, there is a ferrari in the center. A bugatti is on the left of the ferrari, and a lamborghini is on the right of the ferrari. A man stands in front of the ferrari. An office chair is to the left of the man, and a table is to the right of the man.
+
+生图 prompt
+
+中文：
+a photo of PLACEHOLDER, 高级感十足的真实摄影风格，光线干净明亮，反光细腻，整体氛围克制而精致，细节非常丰富。
+
+English:
+a photo of PLACEHOLDER, a premium realistic photography style, clean bright lighting, delicate reflections, a restrained and refined atmosphere, and very rich details.
+
+7
+场景布局 prompt
+
+中文：
+图中中央有一只 horse。一只 hen 位于 horse 的左前方，一只 pig 位于 horse 的右前方。一辆 pickup truck 在 horse 的后方偏左位置，一辆 suv 在 horse 的后方偏右位置。
+
+English:
+In the image, there is a horse in the center. A hen is positioned at the front-left of the horse, and a pig is positioned at the front-right of the horse. A pickup truck is at the back-left of the horse, and an suv is at the back-right of the horse.
+
+生图 prompt
+
+中文：
+a photo of PLACEHOLDER, 柔和自然的乡间氛围，空气清新，画面明亮，细节真实，整体感觉安静舒适。
+
+English:
+a photo of PLACEHOLDER, a soft and natural countryside atmosphere, fresh air, a bright image, realistic details, and an overall quiet and comfortable feeling.
+
+8
+场景布局 prompt
+
+中文：
+图中中央有一个 teddy。一只 shoe 位于 teddy 的左边，一把 chair 位于 teddy 的右边。一只 cat 坐在 teddy 的前方，一只 rabbit 在 cat 的左边，一条 dog 在 cat 的右边。
+
+English:
+In the image, there is a teddy in the center. A shoe is located to the left of the teddy, and a chair is located to the right of the teddy. A cat sits in front of the teddy, with a rabbit to the left of the cat and a dog to the right of the cat.
+
+生图 prompt
+
+中文：
+a photo of PLACEHOLDER, 温暖柔和的光线，空气安静清澈，整体氛围舒适治愈，细节细腻，画面真实自然。
+
+English:
+a photo of PLACEHOLDER, warm and soft lighting, quiet and clear air, a cozy and comforting atmosphere, delicate details, and a realistic natural composition.
+
+9
+场景布局 prompt
+
+中文：
+图中中央有一辆 vw beetle。一辆 coupe 位于 vw beetle 的左边，一辆 sedan 位于 vw beetle 的右边。一辆 scooter 停在 vw beetle 的前方，一个 man 站在 scooter 的左侧，一辆 bicycle 在 scooter 的右侧。
+
+English:
+In the image, there is a vw beetle in the center. A coupe is on the left of the vw beetle, and a sedan is on the right of the vw beetle. A scooter is parked in front of the vw beetle. A man stands on the left side of the scooter, and a bicycle is on the right side of the scooter.
+
+生图 prompt
+
+中文：
+a photo of PLACEHOLDER, 明亮通透的日间光线，空气干净，街头氛围轻松自然，细节丰富，整体画面真实且平衡。
+
+English:
+a photo of PLACEHOLDER, bright and clear daytime lighting, crisp air, a relaxed and natural street atmosphere, rich details, and an overall realistic and balanced composition.
+
+10
+场景布局 prompt
+
+中文：
+图中中央有一只 bear。一只 tiger 位于 bear 的左边，一只 lion 位于 bear 的右边。一只 kangaroo 站在 bear 的前方偏左位置，一只 zebra 站在 bear 的前方偏右位置。
+
+English:
+In the image, there is a bear in the center. A tiger is positioned on the left of the bear, and a lion is positioned on the right of the bear. A kangaroo stands at the front-left of the bear, and a zebra stands at the front-right of the bear.
+
+生图 prompt
+
+中文：
+a photo of PLACEHOLDER, 开阔自然的环境光线，空气清晰，整体氛围安静而有张力，细节鲜明，画面真实且富有视觉冲击力。
+
+English:
+a photo of PLACEHOLDER, open natural lighting, clear air, a calm yet tense atmosphere, vivid details, and a realistic image with strong visual impact.

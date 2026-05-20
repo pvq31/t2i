@@ -1,0 +1,169 @@
+{
+  "subjects_data": [
+    {
+      "name": "sofa",
+      "type": "sofa",
+      "dims": [
+        2.94,
+        1.26,
+        1.19
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        0.0
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        1.570796
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "_screen_size_dim_compensated": true
+    },
+    {
+      "name": "cat",
+      "type": "cat",
+      "dims": [
+        0.307748,
+        0.509981,
+        0.28137
+      ],
+      "x": [
+        -3.390146
+      ],
+      "y": [
+        2.245
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        1.570796
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "_screen_size_dim_compensated": true
+    },
+    {
+      "name": "dog",
+      "type": "dog",
+      "dims": [
+        0.418696,
+        0.697826,
+        0.418696
+      ],
+      "x": [
+        -3.445915
+      ],
+      "y": [
+        -2.295
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        1.570796
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "_screen_size_dim_compensated": true
+    },
+    {
+      "name": "lamp",
+      "type": "lamp",
+      "dims": [
+        0.357792,
+        0.357792,
+        1.431172
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        -2.505896
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        1.570796
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "_screen_size_dim_compensated": true
+    },
+    {
+      "name": "bookshelf",
+      "type": "bookshelf",
+      "dims": [
+        1.304073,
+        0.434691,
+        2.297654
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        3.011462
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        1.570796
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "_screen_size_dim_compensated": true
+    }
+  ],
+  "camera_data": {
+    "camera_elevation": 0.3490658503988659,
+    "lens": 20.837250000000004,
+    "global_scale": 1.0452856
+  },
+  "surrounding_prompt": "cozy indoor living room with soft ambient lighting.",
+  "inference_params": {
+    "height": 1024,
+    "width": 1024,
+    "seed": 42,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 25,
+    "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"
+  },
+  "checkpoint": "seethrough3d_release/seethrough3d_release"
+}

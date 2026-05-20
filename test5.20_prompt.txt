@@ -1,0 +1,59 @@
+室内场景 1：客厅
+
+EN: A sofa centers the image. A table is in front of the sofa. A television is behind the sofa. A lamp is located to the left of the sofa. A plant is located to the right of the sofa. The scene is a quiet modern living room with warm realistic lighting and a cozy home atmosphere.
+
+中: sofa位于画面中央。table在sofa前方。television在sofa后方。lamp位于sofa左侧。plant位于sofa右侧。该场景是一个安静的现代客厅，具有温暖写实光照和舒适的居家氛围。
+
+室内场景 2：卧室
+
+EN: A bed centers the image. A window is behind the bed. A wardrobe is located to the right of the bed. A lamp is located to the left of the bed. A plant is front-left of the bed. A suitcase is front-right of the bed. The scene is a tidy sunlit bedroom with soft natural light and a calm realistic style.
+
+中: bed位于画面中央。window在bed后方。wardrobe位于bed右侧。lamp位于bed左侧。plant在bed左前方。suitcase在bed右前方。该场景是一个整洁的阳光卧室，具有柔和自然光和安静写实风格。
+
+室内场景 3：书房
+
+EN: A desk centers the image. An office chair is in front of the desk. A bookshelf is located to the right of the desk. A cabinet is located to the left of the desk. A lamp is behind the desk. A trash can is front-right of the desk. The scene is a clean home office with balanced realistic lighting and a focused minimal style.
+
+中: desk位于画面中央。office chair在desk前方。bookshelf位于desk右侧。cabinet位于desk左侧。lamp在desk后方。trash can在desk右前方。该场景是一个干净的家庭办公室，具有均衡写实光照和专注的极简风格。
+
+室内场景 4：浴室
+
+EN: A bathtub centers the image. A sink is located to the left of the bathtub. A toilet is located to the right of the bathtub. A cabinet is behind the bathtub. A plant is front-left of the bathtub. A trash can is front-right of the bathtub. The scene is a bright minimalist bathroom with clean realistic lighting and a fresh spa mood.
+
+中: bathtub位于画面中央。sink位于bathtub左侧。toilet位于bathtub右侧。cabinet在bathtub后方。plant在bathtub左前方。trash can在bathtub右前方。该场景是一个明亮的极简浴室，具有干净写实光照和清新的水疗氛围。
+
+室内场景 5：厨房
+
+EN: A refrigerator centers the image. A sink is located to the left of the refrigerator. An oven is located to the right of the refrigerator. A cabinet is behind the refrigerator. A trash can is front-left of the refrigerator. A stool is front-right of the refrigerator. The scene is a neat compact kitchen with crisp realistic daylight and a simple modern style.
+
+中: refrigerator位于画面中央。sink位于refrigerator左侧。oven位于refrigerator右侧。cabinet在refrigerator后方。trash can在refrigerator左前方。stool在refrigerator右前方。该场景是一个整洁的小厨房，具有清晰写实日光和简洁现代风格。
+
+室外场景 1：城市路边
+
+EN: A sedan centers the image. A man stands to the left of the sedan. A suitcase is located to the right of the sedan. A bus is behind the sedan. A bicycle is front-left of the sedan. A plant is front-right of the sedan. The scene is a calm urban curbside moment with realistic daylight and a clean travel-photography style.
+
+中: sedan位于画面中央。man在sedan左侧。suitcase位于sedan右侧。bus在sedan后方。bicycle在sedan左前方。plant在sedan右前方。该场景是一个安静的城市路边瞬间，具有写实日光和干净的旅行摄影风格。
+
+室外场景 2：公园小路
+
+EN: A bicycle centers the image. A man stands behind the bicycle. A dog is front-right of the bicycle. A backpack is located to the left of the bicycle. A plant is located to the right of the bicycle. A bench-like chair is front-left of the bicycle. The scene is a relaxed park path with soft realistic sunlight and a casual outdoor lifestyle mood.
+
+中: bicycle位于画面中央。man在bicycle后方。dog在bicycle右前方。backpack位于bicycle左侧。plant位于bicycle右侧。chair在bicycle左前方。该场景是一条放松的公园小路，具有柔和写实阳光和休闲户外生活氛围。
+
+室外场景 3：农场
+
+EN: A tractor centers the image. A cow is located to the left of the tractor. A horse is located to the right of the tractor. A goat is in front of the tractor. A hen is front-right of the tractor. A pig is behind the tractor. The scene is a peaceful farmyard with warm realistic sunlight and a rustic countryside style.
+
+中: tractor位于画面中央。cow位于tractor左侧。horse位于tractor右侧。goat在tractor前方。hen在tractor右前方。pig在tractor后方。该场景是一个宁静的农家庭院，具有温暖写实阳光和质朴乡村风格。
+
+室外场景 4：林间空地
+
+EN: A deer centers the image. A rabbit is front-left of the deer. A fox is behind the deer. A crow is above the deer. A plant is located to the right of the deer. A sparrow is front-right of the deer. The scene is a quiet woodland clearing with soft cinematic light and a natural wildlife style.
+
+中: deer位于画面中央。rabbit在deer左前方。fox在deer后方。crow在deer上方。plant位于deer右侧。sparrow在deer右前方。该场景是一片安静的林间空地，具有柔和电影感光线和自然野生动物风格。
+
+室外场景 5：住宅车道
+
+EN: A pickup truck centers the image. A motorbike is located to the left of the pickup truck. A scooter is located to the right of the pickup truck. A door is behind the pickup truck. A trash can is front-left of the pickup truck. A backpack is front-right of the pickup truck. The scene is a tidy suburban driveway with crisp realistic daylight and a clean documentary style.
+
+中: pickup truck位于画面中央。motorbike位于pickup truck左侧。scooter位于pickup truck右侧。door在pickup truck后方。trash can在pickup truck左前方。backpack在pickup truck右前方。该场景是一个整洁的郊区车道，具有清晰写实日光和干净纪实风格。

@@ -1,0 +1,222 @@
+{
+  "subjects_data": [
+    {
+      "name": "bus",
+      "type": "bus",
+      "dims": [
+        0.486956,
+        1.986203,
+        0.491291
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        0.0
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "van",
+      "type": "van",
+      "dims": [
+        0.997239,
+        2.022454,
+        0.941976
+      ],
+      "x": [
+        -8.254761
+      ],
+      "y": [
+        0.0
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "suv",
+      "type": "suv",
+      "dims": [
+        0.981913,
+        2.018574,
+        0.736343
+      ],
+      "x": [
+        -3.8
+      ],
+      "y": [
+        1.4
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "pigeon",
+      "type": "pigeon",
+      "dims": [
+        0.547989,
+        1.983364,
+        1.431972
+      ],
+      "x": [
+        -3.766738
+      ],
+      "y": [
+        -0.4
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.5235987755982988
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "sparrow",
+      "type": "sparrow",
+      "dims": [
+        0.66799,
+        2.010431,
+        1.294655
+      ],
+      "x": [
+        -4.4
+      ],
+      "y": [
+        -1.4
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.3490658503988659
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "crow",
+      "type": "crow",
+      "dims": [
+        0.701002,
+        2.008332,
+        1.212356
+      ],
+      "x": [
+        -3.753006
+      ],
+      "y": [
+        0.336945
+      ],
+      "z": [
+        2.5
+      ],
+      "azimuth": [
+        1.5707963267948966
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "bus 2",
+      "type": "bus",
+      "dims": [
+        0.486956,
+        1.986203,
+        0.491291
+      ],
+      "x": [
+        -3.765177
+      ],
+      "y": [
+        -0.366432
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "camera_data": {
+    "camera_elevation": 0.20943951023931956,
+    "lens": 50.0,
+    "global_scale": 1.0
+  },
+  "surrounding_prompt": "realistic roadside street scene with daylight, asphalt lanes and a curb.",
+  "inference_params": {
+    "height": 1024,
+    "width": 1024,
+    "seed": 42,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 25,
+    "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"
+  },
+  "checkpoint": "seethrough3d_release/seethrough3d_release"
+}

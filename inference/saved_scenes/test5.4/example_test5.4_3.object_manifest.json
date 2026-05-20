@@ -1,0 +1,42 @@
+{
+  "objects": [
+    {
+      "id": "refrigerator_1",
+      "name": "refrigerator",
+      "type": "refrigerator",
+      "canonical_type": "refrigerator",
+      "mention": "refrigerator",
+      "source_span": "refrigerator",
+      "confidence": 0.85
+    },
+    {
+      "id": "cabinet_1",
+      "name": "cabinet",
+      "type": "cabinet",
+      "canonical_type": "cabinet",
+      "mention": "cabinet",
+      "source_span": "cabinet",
+      "confidence": 0.85
+    },
+    {
+      "id": "microwave_1",
+      "name": "microwave",
+      "type": "microwave",
+      "canonical_type": "microwave",
+      "mention": "microwave",
+      "source_span": "microwave",
+      "confidence": 0.85
+    },
+    {
+      "id": "bowl_1",
+      "name": "bowl",
+      "type": "bowl",
+      "canonical_type": "bowl",
+      "mention": "bowl",
+      "source_span": "bowl",
+      "confidence": 0.85
+    }
+  ],
+  "non_objects": [],
+  "parse_warnings": []
+}

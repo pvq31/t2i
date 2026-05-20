@@ -1,0 +1,222 @@
+{
+  "subjects_data": [
+    {
+      "name": "bookshelf",
+      "type": "bookshelf",
+      "dims": [
+        1.1,
+        0.35,
+        1.9
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        0.0
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "desk",
+      "type": "desk",
+      "dims": [
+        1.4,
+        0.7,
+        0.76
+      ],
+      "x": [
+        -4.2
+      ],
+      "y": [
+        1.6
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "computer",
+      "type": "computer",
+      "dims": [
+        0.55,
+        0.2,
+        0.4
+      ],
+      "x": [
+        -3.655
+      ],
+      "y": [
+        1.6
+      ],
+      "z": [
+        0.8
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "office chair",
+      "type": "office chair",
+      "dims": [
+        1.889699,
+        2.007762,
+        2.920972
+      ],
+      "x": [
+        -2.390731
+      ],
+      "y": [
+        1.6
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "plant",
+      "type": "plant",
+      "dims": [
+        0.55,
+        0.55,
+        0.95
+      ],
+      "x": [
+        -4.4
+      ],
+      "y": [
+        -1.6
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        2.792526803190927
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "bookshelf 2",
+      "type": "bookshelf",
+      "dims": [
+        1.1,
+        0.35,
+        1.9
+      ],
+      "x": [
+        -5.1
+      ],
+      "y": [
+        0.0
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "desk 2",
+      "type": "desk",
+      "dims": [
+        1.4,
+        0.7,
+        0.76
+      ],
+      "x": [
+        -5.55
+      ],
+      "y": [
+        1.425
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "camera_data": {
+    "camera_elevation": 0.20943951023931956,
+    "lens": 50.0,
+    "global_scale": 1.0
+  },
+  "surrounding_prompt": "modern indoor room with neutral walls and soft natural lighting.",
+  "inference_params": {
+    "height": 1024,
+    "width": 1024,
+    "seed": 42,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 25,
+    "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"
+  },
+  "checkpoint": "seethrough3d_release/seethrough3d_release"
+}

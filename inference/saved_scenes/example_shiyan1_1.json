@@ -1,0 +1,164 @@
+{
+  "subjects_data": [
+    {
+      "name": "sedan",
+      "type": "sedan",
+      "dims": [
+        1.9,
+        4.5,
+        1.5
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        0.0
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "chair",
+      "type": "chair",
+      "dims": [
+        0.6,
+        0.6,
+        0.9
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        -2.0
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "bicycle",
+      "type": "bicycle",
+      "dims": [
+        0.6,
+        1.8,
+        1.1
+      ],
+      "x": [
+        -4.0
+      ],
+      "y": [
+        0.0
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "dog",
+      "type": "dog",
+      "dims": [
+        0.5,
+        0.9,
+        0.7
+      ],
+      "x": [
+        -4.0
+      ],
+      "y": [
+        -1.8
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "cat",
+      "type": "cat",
+      "dims": [
+        0.3,
+        0.6,
+        0.4
+      ],
+      "x": [
+        -4.0
+      ],
+      "y": [
+        1.8
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "camera_data": {
+    "camera_elevation": 0.2,
+    "lens": 50.0,
+    "global_scale": 1.0
+  },
+  "surrounding_prompt": "A simple scene containing a sedan, with a chair to its left and a bicycle in front. A dog stands to the left of the bicycle and a cat to the right.",
+  "inference_params": {
+    "height": 1024,
+    "width": 1024,
+    "seed": 42,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 25,
+    "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"
+  },
+  "checkpoint": "seethrough3d_release/seethrough3d_release"
+}

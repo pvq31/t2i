@@ -1,0 +1,148 @@
+1. 室内场景：安静卧室
+
+场景布局 prompt（中文）：
+图中中央有一张 bed。一个 pillow 放在 bed 上方。一盏 lamp 位于 bed 左侧的 table 上， table前有一把椅子。一只cat在bed的左前方。
+
+Scene layout prompt（English）：
+In the image, there is a bed in the center. A pillow is placed on the upper side of the bed. A lamp is on a table to the left of the bed, and a chair is positioned in front of the table. A cat is at the front-left of the bed.
+
+
+生图 prompt（中文）：
+a photo of PLACEHOLDER，柔和自然光从窗边洒入，温暖安静的卧室氛围，干净舒适的空间，细节丰富，画面层次清晰。
+
+Image generation prompt（English）：
+a photo of PLACEHOLDER, soft natural light coming through the window, a warm and peaceful bedroom atmosphere, clean and comfortable space, rich details, and clear visual depth.
+
+
+
+
+2. 室内场景：现代书房
+
+场景布局 prompt（中文）：
+图中中央有a desk。A computer 紧贴在 the desk 上方，a keyboard 位于 the computer 前方，a mouse 位于 the keyboard 的右侧。A office chair 位于 the desk 的前方. A bookshelf 位于 desk 的左后方。
+
+Scene layout prompt（English）：
+In the image, there is a desk in the center. A computer is placed near the back-center of the desk, a keyboard is in front of the computer, and a mouse is to the right of the keyboard. An office chair is positioned in front of the desk, and a bookshelf stands against the wall at the back-left of the desk.
+
+生图 prompt（中文）：
+a photo of PLACEHOLDER，清晰明亮的室内光线，现代整洁的书房氛围，安静专注，空间有序，细节精致，真实摄影质感。
+
+Image generation prompt（English）：
+a photo of PLACEHOLDER, clear bright indoor lighting, a modern and tidy study room atmosphere, quiet and focused, orderly space, refined details, and realistic photographic texture.
+
+
+3 室内场景：整洁厨房
+
+场景布局 prompt（中文）：
+图中中央有一个 refrigerator。一个 cabinet 位于 refrigerator 的右侧，一个 microwave 和一个bowl放在 cabinet 的台面上。
+
+Scene layout prompt（English）：
+In the center of the image, there is a refrigerator. A cabinet is located to the right of the refrigerator, and a microwave and a bowl are placed on the countertop of the cabinet.
+生图 prompt（中文）：
+a photo of PLACEHOLDER，明亮干净的厨房光线，简洁现代的生活氛围，台面整洁，真实自然，细节清晰，具有温暖的日常感。
+
+Image generation prompt（English）：
+a photo of PLACEHOLDER, bright and clean kitchen lighting, a simple modern everyday atmosphere, tidy countertop, realistic and natural look, clear details, and a warm domestic feeling.
+
+
+5. 室内场景：入口玄关
+
+场景布局 prompt（中文）：
+图中中央有一扇 door。一个 cabinet 位于 door 的左侧靠墙位置，一个 vase 放在 cabinet 上方。一只 backpack 靠在 cabinet 的右下方，一双 shoe 放在 door 前方偏右的地面上。
+
+Scene layout prompt（English）：
+In the image, there is a door in the center. A cabinet is positioned against the wall to the left of the door, and a vase is placed on top of the cabinet. A backpack leans against the lower-right side of the cabinet, and a pair of shoe is placed on the floor at the front-right of the door.
+
+生图 prompt（中文）：
+a photo of PLACEHOLDER，柔和的室内入口光线，安静整洁的玄关氛围，具有生活气息，构图自然，细节丰富，空间真实。
+
+Image generation prompt（English）：
+a photo of PLACEHOLDER, soft indoor entryway lighting, a quiet and tidy hallway atmosphere, lived-in feeling, natural composition, rich details, and realistic space.
+
+
+6. 室内场景：宠物休息角
+
+场景布局 prompt｜中文：
+A sofa在画面中央。一只 cat 在 sofa 的右前方，一个 dog在sofa的左前方。一个 lamp 位于 sofa 的左侧，一张 bookshelf 位于 sofa 的右侧。
+
+Scene layout prompt｜English:
+A sofa is in the center of the image. A cat is front-right of the sofa, and a dog is front-left of the sofa. A lamp is located to the left of the sofa, and a bookshelf is located to the right of the sofa. 
+
+
+生图 prompt｜中文：
+a photo of PLACEHOLDER，一个安静舒适的宠物休息角，柔和温暖的室内光线，慵懒放松的家庭氛围，物品摆放自然，细节丰富，画面温馨真实。
+
+Image generation prompt｜English:
+a photo of PLACEHOLDER, a quiet and comfortable pet resting corner, soft warm indoor lighting, lazy and relaxed home atmosphere, naturally arranged objects, rich details, and a warm realistic composition.
+
+
+室外场景
+6. 室外场景：城市公交站
+
+场景布局 prompt（中文）：
+图中中央有一辆 bus。一辆 van 位于 bus 的后方偏左位置，一名 man 站在 bus 的前方靠近车门处。一只 pigeon 在 man 的右前方地面上，一只 sparrow 停在 bus 左前方的地面边缘。
+
+Scene layout prompt（English）：
+In the image, there is a bus in the center. A van is positioned behind-left of the bus, and a man stands in front of the bus near the door. A pigeon is on the ground at the front-right of the man, and a sparrow is at the ground edge in front-left of the bus.
+
+生图 prompt（中文）：
+a photo of PLACEHOLDER，清晨城市街道的明亮光线，空气清透，安静而真实的公交站氛围，细节丰富，画面具有自然的街拍感。
+
+Image generation prompt（English）：
+a photo of PLACEHOLDER, bright morning light on an urban street, crisp air, a quiet and realistic bus stop atmosphere, rich details, and a natural street photography feeling.
+
+7. 室外场景：农场小路
+
+场景布局 prompt（中文）：
+图中中央有一辆 tractor。一只 cow 位于 tractor 的左前方草地上，一只 sheep 位于 tractor 的右前方稍远处。一只 hen 站在 tractor 前方的小路边缘，一个 barn-style door 位于 tractor 后方的农舍墙面上。
+
+Scene layout prompt（English）：
+In the image, there is a tractor in the center. A cow is on the grass at the front-left of the tractor, and a sheep is slightly farther away at the front-right of the tractor. A hen stands near the path edge in front of the tractor, and a barn-style door is on the farmhouse wall behind the tractor.
+
+生图 prompt（中文）：
+a photo of PLACEHOLDER，温暖的乡村日光，宁静自然的农场氛围，草地与泥土质感清晰，画面朴实优美，细节丰富。
+
+Image generation prompt（English）：
+a photo of PLACEHOLDER, warm rural daylight, a peaceful and natural farm atmosphere, clear grass and soil textures, simple beautiful composition, and rich details.
+
+8. 室外场景：野生草原边缘
+
+场景布局 prompt（中文）：
+图中中央有一只 zebra。一只 giraffe 位于 zebra 的后方偏左位置，一只 elephant 位于 zebra 的右后方较远处。一只 crow 停在 zebra 前方偏左的低矮树枝上。
+
+Scene layout prompt（English）：
+In the image, there is a zebra in the center. A giraffe is positioned behind-left of the zebra, and an elephant is farther away behind-right of the zebra. A crow is perched on a low branch at the front-left of the zebra.
+
+生图 prompt（中文）：
+a photo of PLACEHOLDER，金色傍晚光线，辽阔安静的草原氛围，空气通透，动物姿态自然，背景层次丰富，具有纪录片摄影感。
+
+Image generation prompt（English）：
+a photo of PLACEHOLDER, golden evening light, a vast and quiet savanna atmosphere, clear air, natural animal poses, rich background depth, and a documentary photography feeling.
+
+9. 室外场景：山间林地
+
+场景布局 prompt（中文）：
+图中中央有一只 deer。一只 rabbit 位于 deer 的前方偏右草丛边，一只 fox 位于 deer 的后方偏左远处的林缘。一只 crow 停在 deer 左后方的树枝上。
+
+Scene layout prompt（English）：
+In the image, there is a deer in the center. A rabbit is near the grass at the front-right of the deer, and a fox is farther away at the woodland edge behind-left of the deer. A crow is perched on a branch behind-left of the deer.
+
+生图 prompt（中文）：
+a photo of PLACEHOLDER，清冷柔和的森林光线，幽静自然的林地氛围，薄雾轻盈，动物分布自然，画面安静梦幻，细节丰富。
+
+Image generation prompt（English）：
+a photo of PLACEHOLDER, cool soft forest lighting, a quiet and natural woodland atmosphere, light mist, naturally spaced animals, a peaceful dreamy composition, and rich details.
+
+10. 室外场景：现代公路旁停车区
+
+场景布局 prompt（中文）：
+图中中央有一辆 suv。一辆 pickup truck 位于 suv 的后方偏右位置，一辆 motorbike 停在 suv 的左前方。一名 man 站在 suv 的前方靠近车头处，一只 dog 位于 man 的左侧地面上。
+
+Scene layout prompt（English）：
+In the image, there is an suv in the center. A pickup truck is positioned behind-right of the suv, and a motorbike is parked at the front-left of the suv. A man stands in front of the suv near the hood, and a dog is on the ground to the left of the man.
+
+生图 prompt（中文）：
+a photo of PLACEHOLDER，晴朗公路旁的自然光线，开阔干净的停车区氛围，轻松真实的旅行感，车辆质感清晰，画面有强烈空间层次。
+
+Image generation prompt（English）：
+a photo of PLACEHOLDER, natural light beside a clear open road, a spacious and clean parking area atmosphere, relaxed realistic travel feeling, sharp vehicle textures, and strong spatial depth.

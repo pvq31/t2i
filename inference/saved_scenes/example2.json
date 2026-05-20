@@ -1,0 +1,164 @@
+{
+  "subjects_data": [
+    {
+      "name": "mars rover",
+      "type": "Custom",
+      "dims": [
+        1.5,
+        1.8,
+        1
+      ],
+      "x": [
+        -4.5
+      ],
+      "y": [
+        0
+      ],
+      "z": [
+        0
+      ],
+      "azimuth": [
+        -2.0943951023931953
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "astronaut",
+      "type": "man",
+      "dims": [
+        0.9226661026477814,
+        0.8035905063152313,
+        1.9970132298767567
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        -0.8
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        -0.8726646259971648
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "alien standing on ground",
+      "type": "man",
+      "dims": [
+        0.6458662718534469,
+        0.5625133544206619,
+        1.3979092609137296
+      ],
+      "x": [
+        -6.2
+      ],
+      "y": [
+        0.5
+      ],
+      "z": [
+        0
+      ],
+      "azimuth": [
+        -2.0943951023931953
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "spaceship",
+      "type": "sedan",
+      "dims": [
+        1.311025321483612,
+        2.9971921741962433,
+        0.9849265515804291
+      ],
+      "x": [
+        -11.0
+      ],
+      "y": [
+        -0.6
+      ],
+      "z": [
+        1.5
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "blue neon robotic dog with slight glow",
+      "type": "dog",
+      "dims": [
+        0.30155606603622437,
+        1.243022569656372,
+        0.6807909743338824
+      ],
+      "x": [
+        -3.3
+      ],
+      "y": [
+        0.5
+      ],
+      "z": [
+        0
+      ],
+      "azimuth": [
+        0.5235987755982988
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "camera_data": {
+    "camera_elevation": 0.20769418098732523,
+    "lens": 50.0,
+    "global_scale": 1.0
+  },
+  "surrounding_prompt": "on mars, sci-fi background, scary.",
+  "inference_params": {
+    "height": 1024,
+    "width": 1024,
+    "seed": 42,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 25,
+    "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"
+  },
+  "checkpoint": "seethrough3d_release/seethrough3d_release"
+}

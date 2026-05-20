@@ -1,0 +1,27 @@
+{
+  "overall_pass": true,
+  "issue_counts": {},
+  "criteria": {
+    "object_exact_match": {
+      "pass": true,
+      "issues": []
+    },
+    "dimension_ranges": {
+      "pass": true,
+      "issues": []
+    },
+    "volume_order": {
+      "pass": true,
+      "issues": []
+    },
+    "spatial_predicates": {
+      "pass": true,
+      "issues": []
+    },
+    "camera_ranges": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "issues": []
+}

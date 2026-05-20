@@ -1,0 +1,124 @@
+1
+场景布局 prompt
+中文：
+图中中央有一辆 bus，停在路边。一辆 van 位于 bus 的后方，同向停靠。一辆 suv 位于 bus 前方偏右的位置，在前面的车道上。两只鸟分散在 bus 前方地面上，一只 pigeon 更靠近 bus，另一只 sparrow 更靠近路边。 一只 crow 在 bus 上方空中飞过。
+English:
+In the image, there is a bus in the center, stopped by the roadside. A van is positioned behind the bus, parked in the same direction. An suv is located in front-right of the bus, in the lane ahead. Two birds are scattered on the ground in front of the bus: a pigeon is closer to the bus, while a sparrow is nearer to the curb. A crow is flying in the air above the bus.
+
+生图 prompt
+中文：
+a photo of PLACEHOLDER, 真实的城市交通场景，柔和清晨光线，空气略带凉意，画面自然干净，层次清晰，具有纪实摄影风格。
+English:
+a photo of PLACEHOLDER, a realistic urban traffic scene, soft morning light, slightly cool air, a clean natural composition, clear depth, and a documentary photography style.
+
+
+
+2
+场景布局 prompt
+中文：
+图中中央有一辆 tractor，停在农场院子里。一头 cow 站在 tractor 前方不远处，朝向画面左侧。一只 goat 在 cow 左侧，更靠近前景；一只 sheep 在 cow 右后方，稍微靠后。一辆 pickup truck 停在 tractor 左后方，一辆 bulldozer 停在 tractor 右后方。
+English:
+In the image, there is a tractor in the center, parked in a farmyard. A cow stands not far in front of the tractor, facing toward the left side of the image. A goat is to the left of the cow, closer to the foreground, while a sheep is at the back-right of the cow, slightly farther away. A pickup truck is parked at the back-left of the tractor, and a bulldozer is parked at the back-right of the tractor.
+
+生图 prompt
+中文：
+a photo of PLACEHOLDER, 真实农场环境，阳光柔和自然，空气清新，泥土地面和机械细节清晰可见，整体氛围朴实安静。
+English:
+a photo of PLACEHOLDER, a realistic farm environment, soft natural sunlight, fresh air, clearly visible dirt ground and machinery details, and a simple peaceful atmosphere.
+
+
+3
+场景布局 prompt
+中文：
+图中中央有一头 elephant，站在开阔地上。一只 giraffe 位于 elephant 左后方，更靠近背景；一匹 zebra 位于 elephant 右前方，距离 elephant 略近。一只 flamingo 站在画面左前景的浅水边缘。一只 deer 出现在 elephant 右后方较远的位置。
+English:
+In the image, there is an elephant in the center, standing on open ground. A giraffe is positioned at the back-left of the elephant, farther into the background. A zebra is located at the front-right of the elephant, slightly closer to it. A flamingo stands at the edge of shallow water in the left foreground. A deer appears farther away at the back-right of the elephant.
+
+生图 prompt
+中文：
+a photo of PLACEHOLDER, 开阔自然的野外环境，温暖日光，空气清澈，空间层次丰富，动物状态自然，整体画面真实而宁静。
+English:
+a photo of PLACEHOLDER, an open natural wilderness environment, warm daylight, clear air, rich spatial depth, naturally behaving animals, and an overall realistic peaceful scene.
+
+
+4
+场景布局 prompt
+中文：
+图中中央有一个 teddy，放在地面上并靠近一把 chair。一只 shoe 放在 teddy 左前方。 一只 cat 坐在 teddy 前面不远处，面向镜头。一只 rabbit 在画面左前景，靠近 shoe。 一条 dog 趴在画面右侧，靠近 chair。
+English:
+In the image, there is a teddy in the center, placed on the floor near a chair. A shoe lies at the front-left of the teddy. A cat sits a short distance in front of the teddy, facing the camera. A rabbit is in the left foreground near the shoe. A dog is lying on the right side of the image near the chair.
+
+生图 prompt
+中文：
+a photo of PLACEHOLDER, 温暖柔和的室内光线，空气安静，画面干净舒适，细节细腻自然，整体氛围治愈而真实。
+English:
+a photo of PLACEHOLDER, warm and soft indoor lighting, quiet still air, a clean comfortable composition, delicate natural details, and a soothing yet realistic atmosphere.
+
+
+5
+场景布局 prompt
+中文：
+图中中央有一把 chair。一个 teddy 放在 chair 上。一只 cat 趴在 chair 左侧的地面上，一条 dog 躺在 chair 右侧。一张 table 位于 chair 的右后方,table上还有一个bear。
+English:
+In the center of the picture, there is a chair. A teddy bear is on the chair. A cat is lying on the floor to the left of the chair, and a dog is lying on the right side of the chair. A table is located behind and to the right of the chair, and there is also a bear on the table.
+生图 prompt
+中文：
+a photo of PLACEHOLDER, 温暖柔和的室内光线，空气安静，生活化的客厅氛围，细节自然丰富，画面真实舒适，具有居家摄影质感。
+English:
+a photo of PLACEHOLDER, warm and soft indoor lighting, quiet still air, an everyday living-room atmosphere, natural rich details, a realistic and cozy image, and a home photography feel.
+
+
+6
+场景布局prompt（中文）：
+图中中央有一艘停靠在浅水边的小木船。木船右后方是一片安静的芦苇，左前方的水面上漂着几片睡莲叶。一只白鹭站在木船左侧不远处的浅水中，木船后方远处可以看到一间小木屋，位于岸边树木之间。
+
+Scene layout prompt (English):
+In the image, there is a small wooden boat in the center, resting near the shallow lakeshore. A quiet patch of reeds is positioned at the back-right of the boat, and several lily pads are floating on the water in front-left of it. An egret is standing in the shallow water not far to the left of the boat. In the distance behind the boat, a small cabin can be seen between the trees along the shore.
+
+生图prompt（中文）：
+a photo of PLACEHOLDER，柔和的晨光，轻微的湖面倒影，清新的薄雾空气，平静而富有诗意的氛围，自然的色彩，丰富的纹理细节，以及电影感的空间纵深。
+
+Image generation prompt (English):
+a photo of PLACEHOLDER, soft morning light, gentle lake reflections, fresh misty air, a calm and poetic atmosphere, natural colors, rich texture details, and cinematic depth.
+
+
+7
+场景布局prompt（中文）：
+图中中央是一张靠窗的圆形木桌。桌子中央放着一杯拿铁，拿铁右侧是一只装有可颂的白色餐盘，左侧放着一本打开的书。桌子后方是一扇大窗户，窗外能看到模糊的街景。桌子左后方有一把木椅，椅背上搭着一条浅色围巾。
+
+Scene layout prompt (English):
+In the image, there is a round wooden table by the window in the center. A cup of latte is placed in the middle of the table, with a white plate holding a croissant on the right side and an open book on the left side. Behind the table, there is a large window showing a softly blurred street view outside. A wooden chair is positioned at the back-left of the table, and a light-colored scarf is draped over the chair back.
+
+生图prompt（中文）：
+a photo of PLACEHOLDER，温暖的自然窗光，舒适的清晨咖啡馆氛围，柔和的阴影，优雅的构图，富有吸引力的细节，以及安静的欧式氛围。
+
+Image generation prompt (English):
+a photo of PLACEHOLDER, warm natural window light, a cozy morning café mood, soft shadows, elegant composition, inviting details, and a quiet European-style atmosphere.
+
+
+8
+场景布局prompt（中文）：
+图中中央有一座被积雪覆盖的木屋。木屋前方有一条通向门口的窄窄雪路，雪路左侧站着一棵小松树，右侧堆着一小堆劈好的木柴。木屋屋顶上覆盖着厚雪，木屋后方是更高大的针叶林，远处隐约可见雪山。
+
+Scene layout prompt (English):
+In the image, there is a snow-covered cabin in the center. A narrow snowy path leads to the front door. A small pine tree stands on the left side of the path, and a neat pile of chopped firewood is placed on the right side. Thick snow covers the roof of the cabin. Behind the cabin, there is a dense forest of tall conifer trees, and snowy mountains can be faintly seen in the distance.
+
+生图prompt（中文）：
+a photo of PLACEHOLDER，清冷明亮的白昼光线，纯净的雪地纹理，宁静的冬日静谧感，清透的空气，细腻的细节，以及平和的高山氛围。
+
+Image generation prompt (English):
+a photo of PLACEHOLDER, cold clear daylight, pure snow textures, tranquil winter silence, crisp atmosphere, delicate details, and a peaceful alpine mood.
+
+
+9
+场景布局prompt（中文）：
+图中中央有一张深色木质书桌。书桌中央放着一盏点亮的台灯，台灯前方摆着一本摊开的笔记本，右侧是一支钢笔和一副眼镜。书桌左后方有一叠整齐摆放的书，右后方是一扇半开的窗户，窗外能看到微暗的黄昏天空。书桌后面靠墙放着一把皮质靠背椅。
+
+Scene layout prompt (English):
+In the image, there is a dark wooden desk in the center. A lit desk lamp stands in the middle of the desk. In front of the lamp lies an open notebook, while a fountain pen and a pair of eyeglasses are placed on the right side. At the back-left of the desk, a neat stack of books is arranged. At the back-right, there is a half-open window showing the dim evening sky outside. Behind the desk, a leather-backed chair is placed against the wall.
+
+生图prompt（中文）：
+a photo of PLACEHOLDER，温暖的台灯光线，安静的黄昏氛围，丰富的木质纹理，亲密而沉静的氛围，细腻的阴影，以及富有电影感的室内细节。
+
+Image generation prompt (English):
+a photo of PLACEHOLDER, warm lamplight, quiet dusk ambience, rich wood textures, an intimate and thoughtful atmosphere, subtle shadows, and cinematic interior detail.

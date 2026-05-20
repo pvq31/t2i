@@ -1,0 +1,193 @@
+{
+  "subjects_data": [
+    {
+      "name": "television",
+      "type": "television",
+      "dims": [
+        0.594,
+        0.0648,
+        0.378
+      ],
+      "x": [
+        -5.212263
+      ],
+      "y": [
+        1.782266
+      ],
+      "z": [
+        0.819419
+      ],
+      "azimuth": [
+        2.0943951023931953
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "low table",
+      "type": "table",
+      "dims": [
+        0.816403,
+        1.984693,
+        0.819419
+      ],
+      "x": [
+        -5.212263
+      ],
+      "y": [
+        1.782266
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "chair",
+      "type": "chair",
+      "dims": [
+        0.679064,
+        0.807352,
+        1.153819
+      ],
+      "x": [
+        -3.2
+      ],
+      "y": [
+        0.720826
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        3.4033920413889427
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "plant",
+      "type": "plant",
+      "dims": [
+        0.32175,
+        0.32175,
+        0.55575
+      ],
+      "x": [
+        -5.8
+      ],
+      "y": [
+        1.6
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        3.141592653589793
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "bookshelf",
+      "type": "bookshelf",
+      "dims": [
+        1.1,
+        0.35,
+        1.9
+      ],
+      "x": [
+        -6.8
+      ],
+      "y": [
+        -3.2
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        1.5707963267948966
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "teddy on bookshelf",
+      "type": "teddy",
+      "dims": [
+        0.222436,
+        0.179051,
+        0.268613
+      ],
+      "x": [
+        -5.07524
+      ],
+      "y": [
+        1.526778
+      ],
+      "z": [
+        0.819419
+      ],
+      "azimuth": [
+        2.0943951023931953
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "camera_data": {
+    "camera_elevation": 0.13962634015954636,
+    "lens": 30.0,
+    "global_scale": 1.0
+  },
+  "surrounding_prompt": "cozy indoor living room with soft ambient lighting and a visible left wall.",
+  "inference_params": {
+    "height": 1024,
+    "width": 1024,
+    "seed": 42,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 25,
+    "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"
+  },
+  "checkpoint": "seethrough3d_release/seethrough3d_release"
+}

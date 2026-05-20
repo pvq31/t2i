@@ -1,0 +1,164 @@
+{
+  "subjects_data": [
+    {
+      "name": "sedan",
+      "type": "sedan",
+      "dims": [
+        0.874017,
+        1.998128,
+        0.656618
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        0.0
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        -1.3962634015954636
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "chair",
+      "type": "chair",
+      "dims": [
+        0.754516,
+        0.897058,
+        1.282021
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        -1.6
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        -1.5707963267948966
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "bicycle",
+      "type": "bicycle",
+      "dims": [
+        0.574301,
+        2.013343,
+        1.182683
+      ],
+      "x": [
+        -3.743691
+      ],
+      "y": [
+        0.0
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        -2.443460952792061
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "dog",
+      "type": "dog",
+      "dims": [
+        0.289958,
+        1.195214,
+        0.654607
+      ],
+      "x": [
+        -4.0
+      ],
+      "y": [
+        -1.4
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        -1.9198621771937625
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "cat",
+      "type": "cat",
+      "dims": [
+        0.279937,
+        0.784303,
+        0.414797
+      ],
+      "x": [
+        -4.0
+      ],
+      "y": [
+        1.4
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        -1.2217304763960306
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "camera_data": {
+    "camera_elevation": 0.20943951023931956,
+    "lens": 50.0,
+    "global_scale": 1.0
+  },
+  "surrounding_prompt": "highly realistic outdoor lighting on a flat open area.",
+  "inference_params": {
+    "height": 1024,
+    "width": 1024,
+    "seed": 42,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 25,
+    "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"
+  },
+  "checkpoint": "seethrough3d_release/seethrough3d_release"
+}

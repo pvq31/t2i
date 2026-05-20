@@ -1,0 +1,125 @@
+example0.json 字段说明（从场景 pkl 转成 JSON 的结构）
+
+整体结构：
+{
+  "subjects_data": [...],      # 多个物体（主体）
+  "camera_data": {...},        # 相机参数
+  "surrounding_prompt": "...", # 环境文本描述
+  "inference_params": {...},   # 推理/采样参数
+  "checkpoint": "..."          # 使用的发布权重标识
+}
+
+1. subjects_data（物体/主体列表）
+   - 每个元素对应场景中的一个物体，来自 SceneManager.objects，在 save_scene_to_pkl 时生成：
+     {
+       "name":      obj["description"],
+       "type":      obj["type"],
+       "dims":      (width, depth, height),
+       "x":         [position_x - 6.0],
+       "y":         [position_y],
+       "z":         [position_z],
+       "azimuth":   [azimuth_rad],
+       "bbox":      [(0, 0, 0, 0)]
+     }
+
+   1.1 name
+       - 物体的文字描述（UI 中输入的 description），例如 "bicycle"、"sedan"、"dog"。
+       - 后续会用于占位符 prompt 里，描述场景中有哪些主体。
+
+   1.2 type
+       - 资产类型字符串，如 "chair"、"sedan"、"dog"、"Custom"。
+       - 所有的类型见/ptpool/users/qzy/code/seethrough3d/inference/asset_dimensions.json
+       - 主要用于：
+         * 与 asset_dimensions.pkl 中的尺寸表对应，恢复 original_asset_size；
+         * 在 harmonize_scales 时根据 type 的标定尺度做整体比例统一。
+
+   1.3 dims
+       - 三维尺寸，对应 UI 中 cuboid 的 size：
+         * dims[0]：物体宽度 width（X 方向）
+         * dims[1]：物体深度 depth（Y 方向）
+         * dims[2]：物体高度 height（Z 方向）
+       - 在 Blender 中用于设置立方体缩放：
+         scale = global_scale * np.array(dims) * 2.0
+
+   1.4 x / y / z
+       - 均为长度为 1 的数组，内部是一个浮点数，方便和训练/数据管线对齐。
+       - 语义：
+         * x[0]：物体在“远/近”方向上的位置（沿相机视线），保存时会做 position_x - 6.0 的平移；
+         * y[0]：物体左右位置（水平轴）；
+         * z[0]：物体竖直位置基准，Blender 中会再加上半个高度，让物体落在“地面”上：
+               z_world = global_scale * dims[2] / 2.0 + z[0]
+
+   1.5 azimuth
+       - 物体的水平朝向角，单位是弧度（保存时由 UI 中的度数通过 np.radians 转换而来）。
+       - 渲染时直接用来设置 Z 轴旋转：
+         prim_obj.rotation_euler[2] = azimuth[0]
+
+   1.6 bbox
+       - 当前实现中是占位字段，统一为 [[0, 0, 0, 0]]。
+       - 语义上预留为物体在最终渲染图中的 2D 边界框 (xmin, ymin, xmax, ymax)。
+
+2. camera_data（相机参数）
+   - 由 SceneManager.camera_elevation / camera_lens 等保存而来：
+     {
+       "camera_elevation": elevation_rad,
+       "lens":             lens_mm,
+       "global_scale":     1.0
+     }
+
+   2.1 camera_elevation
+       - 相机仰角，单位弧度（UI 中的度数 -> np.radians）。
+       - Blender 中通过这个角度确定相机在“球面”上的高度位置：
+         camera.location = (radius * cos(elev) + center, 0, radius * sin(elev))
+
+   2.2 lens
+       - 相机焦距（mm），直接赋值给 Blender 相机 data.lens：
+         焦距越大，视角越窄，透视越弱。
+
+   2.3 global_scale
+       - 全局尺度因子，用于统一放大/缩小所有物体尺寸以及它们的 Z 方向高度计算：
+         z_world = global_scale * dims[2] / 2.0 + z0
+         scale   = global_scale * dims * 2.0
+       - 示例场景中为 1.0，即不额外缩放。
+
+3. surrounding_prompt（环境描述）
+   - 自然语言描述整幅画面/环境，比如：
+     "in the backyard of a house, beautiful morning with gleaming sunshine, highly realistic."
+   - 在生成占位符 prompt 时会被拼到：
+     "a photo of PLACEHOLDER " + surrounding_prompt
+   - PLACEHOLDER 之后会被各个主体的描述替换，作为文本条件送进 Flux 模型。
+
+4. inference_params（推理/采样参数）
+   - 由 SceneManager.inference_params 保存，结构：
+     {
+       "height":             H,
+       "width":              W,
+       "seed":               seed,
+       "guidance_scale":     g,
+       "num_inference_steps":steps,
+       "checkpoint":         internal_ckpt_name
+     }
+
+   4.1 height / width
+       - 生成图像分辨率（像素），在 run_inference_from_gradio 中直接传给 pipeline：
+         image = pipe(..., height=H, width=W, ...)
+
+   4.2 seed
+       - 随机种子，用于控制扩散采样的随机性，固定后生成结果可复现：
+         generator = torch.Generator("cpu").manual_seed(seed)
+
+   4.3 guidance_scale
+       - classifier-free guidance 的权重，越大越“听 prompt”，但创意性相对减少。
+
+   4.4 num_inference_steps
+       - 扩散采样步数（去噪迭代次数），越大通常画质更好但推理更慢。
+
+   4.5 checkpoint（inference_params 内）
+       - 训练/内部使用的 checkpoint 标识，如：
+         "rgb__finetune_1024/epoch-1__checkpoint-5000"
+       - 用于在训练/通用推理脚本中定位具体的 LoRA 版本，对当前 Gradio 推理更多是兼容字段。
+
+5. 顶层 checkpoint（example0.json 最外层）
+   - 例如："seethrough3d_release/seethrough3d_release"
+   - 表示“发布版模型/LoRA 权重”的逻辑标识，与 config.CHECKPOINT_NAMES 相对应。
+   - 可以理解为：这份场景示例期望使用的公开发布 checkpoint 名，用于和磁盘中实际的 LoRA 路径（LORA_WEIGHTS_ROOT 下的目录与文件）建立关联。
+   -  "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"和"checkpoint": "seethrough3d_release/seethrough3d_release"保持不变

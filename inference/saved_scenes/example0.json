@@ -1,0 +1,164 @@
+{
+  "subjects_data": [
+    {
+      "name": "bicycle",
+      "type": "bicycle",
+      "dims": [
+        0.5743007361888885,
+        2.0133426189422607,
+        1.182682991027832
+      ],
+      "x": [
+        -3.5
+      ],
+      "y": [
+        0
+      ],
+      "z": [
+        0
+      ],
+      "azimuth": [
+        -2.443460952792061
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "sedan",
+      "type": "sedan",
+      "dims": [
+        1.5,
+        4.196069043874741,
+        0.9799999999999999
+      ],
+      "x": [
+        -7.0
+      ],
+      "y": [
+        0
+      ],
+      "z": [
+        0
+      ],
+      "azimuth": [
+        -1.3962634015954636
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "dog",
+      "type": "dog",
+      "dims": [
+        0.28995775580406186,
+        1.195214009284973,
+        0.6546067060902715
+      ],
+      "x": [
+        -4.0
+      ],
+      "y": [
+        -0.5
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        -0.2617993877991494
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "puppy",
+      "type": "cat",
+      "dims": [
+        0.2449445769190788,
+        0.6862648725509644,
+        0.36294724969193337
+      ],
+      "x": [
+        -3.1
+      ],
+      "y": [
+        0.5
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        2.0943951023931953
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "backyard chair",
+      "type": "chair",
+      "dims": [
+        0.628762923181057,
+        0.7475485950708389,
+        1.0683508040383458
+      ],
+      "x": [
+        -5.0
+      ],
+      "y": [
+        -1
+      ],
+      "z": [
+        0
+      ],
+      "azimuth": [
+        -1.0471975511965976
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "camera_data": {
+    "camera_elevation": 0.2059488517353309,
+    "lens": 50.0,
+    "global_scale": 1.0
+  },
+  "surrounding_prompt": "in the backyard of a house, beautiful morning with gleaming sunshine, highly realistic.",
+  "inference_params": {
+    "height": 1024,
+    "width": 1024,
+    "seed": 42,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 25,
+    "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"
+  },
+  "checkpoint": "seethrough3d_release/seethrough3d_release"
+}

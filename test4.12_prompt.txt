@@ -1,0 +1,117 @@
+1
+场景布局 prompt
+中文：
+图中中央有一辆 bus，停在路边。一辆 van 位于 bus 的后方，同向停靠。一辆 suv 位于 bus 前方偏右的位置，在前面的车道上。两只鸟分散在 bus 前方地面上，一只 pigeon 更靠近 bus，另一只 sparrow 更靠近路边。 一只 crow 在 bus 上方空中飞过。
+English:
+In the image, there is a bus in the center, stopped by the roadside. A van is positioned behind the bus, parked in the same direction. An suv is located in front-right of the bus, in the lane ahead. Two birds are scattered on the ground in front of the bus: a pigeon is closer to the bus, while a sparrow is nearer to the curb. A crow is flying in the air above the bus.
+
+生图 prompt
+中文：
+a photo of PLACEHOLDER, 真实的城市交通场景，柔和清晨光线，空气略带凉意，画面自然干净，层次清晰，具有纪实摄影风格。
+English:
+a photo of PLACEHOLDER, a realistic urban traffic scene, soft morning light, slightly cool air, a clean natural composition, clear depth, and a documentary photography style.
+
+
+2 室内场景：书房办公区
+
+场景布局 prompt（中文）
+图中中央是一张 desk。一台 computer 放在 desk 的中央偏后位置，一部 phone 放在 computer 的右侧前方。一把 chair 位于 desk 前方，正对 computer。一个 plant 放在 desk 左后角，一个 drawer 位于 desk 右侧。
+场景布局 prompt（English）
+In the image, a desk is placed at the center. A computer sits on the back-center of the desk, and a phone is positioned at the front-right of the computer. A chair is placed in front of the desk, facing the computer. A plant is on the back-left corner of the desk, and a drawer is located to the right of the desk.
+
+生图 prompt（中文）
+a photo of PLACEHOLDER , 温暖柔和的室内光线，安静整洁的书房氛围，构图平衡，细节清晰，具有自然的生活气息与高级感。
+生图 prompt（English）
+a photo of PLACEHOLDER , warm and soft indoor lighting, a quiet and tidy study atmosphere, balanced composition, crisp details, and a natural yet refined feeling.
+
+3. 室内场景：卧室一角
+
+场景布局 prompt（中文）
+图中中央是一张 bed。一个 backpack 放在 bed 的前方偏右位置。一张 drawer 位于 bed 的左侧，drawer 上放着一个 vase。一个 plant 位于 bed 的右后方，靠近画面边缘。
+场景布局 prompt（English）
+In the image, a bed is placed at the center. A backpack is positioned in front-right of the bed. A drawer is located to the left of the bed, and a vase is placed on top of the drawer. A plant stands behind-right of the bed near the edge of the frame.
+
+生图 prompt（中文）
+a photo of PLACEHOLDER , 柔和安静的卧室氛围，干净自然的光影，画面舒展，细节丰富，带有温馨而放松的摄影质感。
+生图 prompt（English）
+a photo of PLACEHOLDER , a soft and quiet bedroom mood, clean natural light and shadow, an airy composition, rich details, and a warm, relaxing photographic feel.
+
+4. 室内场景：客厅电视区
+
+场景布局 prompt（中文）
+图中中央是一台 television。一张 desk 位于 television 下方。一盆 plant 放在 desk 的左侧，一只 vase 放在 desk 的右侧。一把 chair 位于 desk 前方偏左的位置。
+场景布局 prompt（English）
+In the image, a television is centered in the scene. A desk is placed below the television. A plant is positioned on the left side of the desk, and a vase is placed on the right side of the desk. A chair is located in front-left of the desk.
+
+生图 prompt（中文）
+a photo of PLACEHOLDER , 清爽通透的室内光线，安静克制的客厅氛围，画面简洁有层次，细节真实，具有现代家居摄影的美感。
+生图 prompt（English）
+a photo of PLACEHOLDER , bright and airy indoor lighting, a calm and restrained living room atmosphere, a clean layered composition, realistic details, and the aesthetic of modern interior photography.
+
+5. 室内场景：厨房台面区域
+
+场景布局 prompt（中文）
+图中中央是一台 refrigerator。一台 microwave 位于 refrigerator 的右侧，稍微靠前。一台 oven 位于 microwave 的下方偏右位置。一张 table 位于 refrigerator 前方，一只 vase 放在 table 中央。
+场景布局 prompt（English）
+In the image, a refrigerator stands at the center. A microwave is placed to the right of the refrigerator, slightly forward. An oven is positioned below-right of the microwave. A table is located in front of the refrigerator, with a vase placed at the center of the table.
+
+生图 prompt（中文）
+a photo of PLACEHOLDER , 明亮干净的厨房氛围，柔和而清晰的光线，空间井然有序，细节丰富，呈现出现代生活方式摄影的质感。
+生图 prompt（English）
+a photo of PLACEHOLDER , a bright and clean kitchen atmosphere, soft yet clear lighting, an orderly space, rich details, and the texture of modern lifestyle photography.
+
+6. 室内场景：阅读角落
+
+场景布局 prompt（中文）
+图中中央是一个 bookshelf。一张 desk 位于 bookshelf 前方偏右的位置。一台 computer 放在 desk 的中央，一把 office chair 位于 desk 前方。一个 plant 放在 bookshelf 左侧前方。
+场景布局 prompt（English）
+In the image, a bookshelf is placed at the center. A desk is positioned in front-right of the bookshelf. A computer sits at the center of the desk, and an office chair is placed in front of the desk. A plant is located at the front-left of the bookshelf.
+
+生图 prompt（中文）
+a photo of PLACEHOLDER , 安静专注的阅读与工作氛围，柔和均匀的光线，构图自然，层次分明，带有文艺而舒适的室内摄影感。
+生图 prompt（English）
+a photo of PLACEHOLDER , a calm atmosphere for reading and working, soft even lighting, a natural composition, clear depth, and an artistic yet comfortable interior photography feel.
+
+7、客厅场景（主体：television）
+
+场景布局 prompt（中文）：
+图中中央是一台 television，放置在一个低矮的 table 上。一张 chair 位于 table 前方偏左位置。一个 plant 放在 television 的右侧。左侧靠墙有一个 bookshelf，上面摆放着 books 和一个 teddy。
+
+Scene Layout Prompt (English):
+In the image, there is a television in the center placed on a low table. A chair is positioned slightly front-left of the table. A plant is placed to the right of the television. Against the left wall, there is a bookshelf with books and a teddy on it.
+
+生图 prompt（中文）：
+一张关于 PLACEHOLDER 的照片，柔和的室内灯光营造出宁静氛围，空间温暖舒适，细节丰富，具有家庭感和放松气息。
+
+Image Prompt (English):
+a photo of PLACEHOLDER, soft indoor lighting creating a peaceful mood, a warm and comfortable space, rich details, and a relaxing homely atmosphere.
+
+
+8、入口场景（主体：hanger）
+
+场景布局 prompt（中文）：
+图中中央是一个 hanger，上面挂着一个 backpack。hanger 下方整齐摆放着一双 shoe。右侧有一个小 table，table 上放着一个 phone 和一个 vase。左侧靠墙放着一个 plant。
+
+Scene Layout Prompt (English):
+In the image, there is a hanger in the center with a backpack hanging on it. A pair of shoes is neatly placed below the hanger. To the right, there is a small table with a phone and a vase on it. On the left side against the wall, there is a plant.
+
+生图 prompt（中文）：
+一张关于 PLACEHOLDER 的照片，柔和的入口光线，空间整洁有序，氛围安静自然，细节丰富，具有真实生活质感。
+
+Image Prompt (English):
+a photo of PLACEHOLDER, soft entryway lighting, a neat and organized space, a calm and natural atmosphere, rich details, and a realistic everyday feel.
+
+
+9、卧室场景（主体：bed）
+
+场景布局 prompt（中文）：
+图中中央是一张 bed。一个 desk 位于床的右侧，desk 上放着一个 computer 和一个 phone。一把 chair 放在 desk 前方。床的左侧靠墙有一个 bookshelf，上面整齐摆放着 books 和一个 vase，vase 里插着 plant。
+
+Scene Layout Prompt (English):
+In the image, there is a bed in the center. A desk is placed to the right of the bed, with a computer and a phone on the desk. A chair is positioned in front of the desk. On the left side of the bed, against the wall, there is a bookshelf holding books and a vase with a plant.
+
+生图 prompt（中文）：
+一张关于 PLACEHOLDER 的照片，柔和自然光从窗户洒入，空间安静温馨，细节丰富，色调温暖，具有生活气息和舒适氛围。
+
+Image Prompt (English):
+a photo of PLACEHOLDER, soft natural light coming through the window, a calm and cozy atmosphere, warm tones, rich details, and a sense of everyday life.

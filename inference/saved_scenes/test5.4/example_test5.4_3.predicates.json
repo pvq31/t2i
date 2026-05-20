@@ -1,0 +1,32 @@
+{
+  "predicates": [
+    {
+      "id": "p1",
+      "type": "right_of",
+      "subject": "cabinet_1",
+      "object": "refrigerator_1",
+      "tight": false,
+      "evidence": "A cabinet is located to the right of the refrigerator",
+      "confidence": 0.9
+    },
+    {
+      "id": "p2",
+      "type": "support",
+      "subject": "microwave_1",
+      "object": "cabinet_1",
+      "tight": true,
+      "evidence": "and a microwave and a bowl are placed on the countertop of the cabinet",
+      "confidence": 0.9
+    },
+    {
+      "id": "p3",
+      "type": "support",
+      "subject": "bowl_1",
+      "object": "cabinet_1",
+      "tight": true,
+      "evidence": "and a microwave and a bowl are placed on the countertop of the cabinet",
+      "confidence": 0.9
+    }
+  ],
+  "source_text": "In the center of the image, there is a refrigerator. A cabinet is located to the right of the refrigerator, and a microwave and a bowl are placed on the countertop of the cabinet."
+}

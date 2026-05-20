@@ -1,0 +1,3 @@
+{"date":"2026-05-12","pattern":"LLM emits plausible but relation-incorrect coordinates","fix":"Compile text relations into predicates and project pkl fields with harness_param_constraints.py","status":"implemented"}
+{"date":"2026-05-12","pattern":"Prompt objects missing or extra in pkl","fix":"Use object_manifest and strict object reconciliation before validation","status":"implemented"}
+{"date":"2026-05-12","pattern":"Cube sizes become severely distorted","fix":"Clamp dims by asset reference and enforce volume order/same-type consistency","status":"implemented"}

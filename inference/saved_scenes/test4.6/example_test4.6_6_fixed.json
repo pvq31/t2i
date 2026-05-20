@@ -1,0 +1,164 @@
+{
+  "subjects_data": [
+    {
+      "name": "small wooden boat",
+      "type": "coupe",
+      "dims": [
+        1.6,
+        3.6,
+        1.0
+      ],
+      "x": [
+        -8.68968
+      ],
+      "y": [
+        -0.228
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        -1.5707963267948966
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "patch of reeds",
+      "type": "table",
+      "dims": [
+        0.7,
+        1.8,
+        0.9
+      ],
+      "x": [
+        -7.32168
+      ],
+      "y": [
+        0.988
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        -1.5707963267948966
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "lily pads",
+      "type": "chair",
+      "dims": [
+        0.7,
+        0.8,
+        0.15
+      ],
+      "x": [
+        -9.75368
+      ],
+      "y": [
+        -1.292
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.0
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "egret",
+      "type": "sparrow",
+      "dims": [
+        0.12,
+        0.35,
+        0.45
+      ],
+      "x": [
+        -8.53768
+      ],
+      "y": [
+        -0.988
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        -1.0471975511965976
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "small cabin",
+      "type": "bus",
+      "dims": [
+        2.6,
+        5.5,
+        2.7
+      ],
+      "x": [
+        -4.23228
+      ],
+      "y": [
+        -0.0
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        -1.5707963267948966
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "camera_data": {
+    "camera_elevation": 0.20943951023931956,
+    "lens": 20.0,
+    "global_scale": 1.0
+  },
+  "surrounding_prompt": "calm shallow lakeshore with gentle water, reeds and lily pads, tree-lined shore with a distant rustic cabin, soft natural daylight.",
+  "inference_params": {
+    "height": 1024,
+    "width": 1024,
+    "seed": 42,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 25,
+    "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"
+  },
+  "checkpoint": "seethrough3d_release/seethrough3d_release"
+}

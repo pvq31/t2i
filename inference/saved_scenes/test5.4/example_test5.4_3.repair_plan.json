@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "mode": "deterministic_harness",
+  "manifest_path": "",
+  "predicates_path": "",
+  "constraints_path": "",
+  "actions": [
+    {
+      "tool": "set_param",
+      "object": "refrigerator",
+      "param": "dims",
+      "value": [
+        0.85,
+        0.75,
+        1.85
+      ],
+      "reason": "visual_target_dims"
+    },
+    {
+      "tool": "set_param",
+      "object": "cabinet",
+      "param": "dims",
+      "value": [
+        0.95,
+        0.55,
+        0.95
+      ],
+      "reason": "visual_target_dims"
+    },
+    {
+      "tool": "set_param",
+      "object": "microwave",
+      "param": "dims",
+      "value": [
+        0.34,
+        0.24,
+        0.22
+      ],
+      "reason": "visual_target_dims"
+    },
+    {
+      "tool": "set_param",
+      "object": "bowl",
+      "param": "dims",
+      "value": [
+        0.18,
+        0.18,
+        0.1
+      ],
+      "reason": "visual_target_dims"
+    },
+    {
+      "tool": "set_param",
+      "object": "microwave",
+      "param": "z[0]",
+      "value": 1.0148,
+      "reason": "support(microwave,cabinet):support_z"
+    },
+    {
+      "tool": "set_param",
+      "object": "bowl",
+      "param": "z[0]",
+      "value": 1.0148,
+      "reason": "support(bowl,cabinet):support_z"
+    },
+    {
+      "tool": "set_param",
+      "object": "microwave",
+      "param": "y[0]",
+      "value": 0.869967,
+      "reason": "spread_on_support(microwave,cabinet):slot_y"
+    },
+    {
+      "tool": "set_param",
+      "object": "bowl",
+      "param": "y[0]",
+      "value": 1.249967,
+      "reason": "spread_on_support(bowl,cabinet):slot_y"
+    },
+    {
+      "tool": "set_param",
+      "object": "refrigerator",
+      "param": "x[0]",
+      "value": -6.0,
+      "reason": "center_scene_component:x"
+    },
+    {
+      "tool": "set_param",
+      "object": "refrigerator",
+      "param": "y[0]",
+      "value": -0.8,
+      "reason": "center_scene_component:y"
+    },
+    {
+      "tool": "set_param",
+      "object": "cabinet",
+      "param": "x[0]",
+      "value": -6.0,
+      "reason": "center_scene_component:x"
+    },
+    {
+      "tool": "set_param",
+      "object": "cabinet",
+      "param": "y[0]",
+      "value": 0.75,
+      "reason": "center_scene_component:y"
+    },
+    {
+      "tool": "set_param",
+      "object": "microwave",
+      "param": "x[0]",
+      "value": -6.0,
+      "reason": "center_scene_component:x"
+    },
+    {
+      "tool": "set_param",
+      "object": "microwave",
+      "param": "y[0]",
+      "value": 0.6,
+      "reason": "center_scene_component:y"
+    },
+    {
+      "tool": "set_param",
+      "object": "bowl",
+      "param": "x[0]",
+      "value": -6.0,
+      "reason": "center_scene_component:x"
+    },
+    {
+      "tool": "set_param",
+      "object": "bowl",
+      "param": "y[0]",
+      "value": 0.98,
+      "reason": "center_scene_component:y"
+    }
+  ],
+  "action_count": 16
+}

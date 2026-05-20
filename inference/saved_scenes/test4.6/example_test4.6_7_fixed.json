@@ -1,0 +1,77 @@
+{
+  "subjects_data": [
+    {
+      "name": "round wooden table",
+      "type": "table",
+      "dims": [
+        0.816403,
+        1.984693,
+        0.819419
+      ],
+      "x": [
+        -6.0
+      ],
+      "y": [
+        0.582469
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        -1.5707963267948966
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "wooden chair",
+      "type": "chair",
+      "dims": [
+        0.754516,
+        0.897058,
+        1.282021
+      ],
+      "x": [
+        -7.8
+      ],
+      "y": [
+        -1.017531
+      ],
+      "z": [
+        0.0
+      ],
+      "azimuth": [
+        0.3490658503988659
+      ],
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "camera_data": {
+    "camera_elevation": 0.20943951023931956,
+    "lens": 50.0,
+    "global_scale": 1.0
+  },
+  "surrounding_prompt": "cozy indoor cafe by a large window with softly blurred street view outside, warm natural daylight.",
+  "inference_params": {
+    "height": 1024,
+    "width": 1024,
+    "seed": 42,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 25,
+    "checkpoint": "rgb__finetune_1024/epoch-1__checkpoint-5000"
+  },
+  "checkpoint": "seethrough3d_release/seethrough3d_release"
+}
