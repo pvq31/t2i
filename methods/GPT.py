@@ -16,7 +16,7 @@ from typing import Any, Dict, List
 
 
 DEFAULT_HOST = "api.chatanywhere.tech"
-DEFAULT_API_KEY = "sk-4vGkTSWP4WmCIQaiY1fthMExZHJL5aDl2Ad8QmtZiGcJYJzS"
+DEFAULT_API_KEY = "REPLACE_WITH_API_KEY"
 DEFAULT_OUTPUT = Path("methods/dalle3_sofa_pet_corner.png")
 DEFAULT_MODEL = "gpt-image-1-mini"
 DEFAULT_FALLBACK_MODELS = ["gpt-image-1-mini"]

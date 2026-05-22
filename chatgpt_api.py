@@ -7,7 +7,7 @@ payload = json.dumps({
    "input": "你好,你是什么模型,什么版本"
 })
 headers = {
-   'Authorization': 'Bearer sk-4vGkTSWP4WmCIQaiY1fthMExZHJL5aDl2Ad8QmtZiGcJYJzS',
+   'Authorization': 'Bearer REPLACE_WITH_API_KEY',
    'Content-Type': 'application/json'
 }
 conn.request("POST", "/v1/responses", payload, headers)

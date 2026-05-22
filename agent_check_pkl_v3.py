@@ -2608,7 +2608,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--api-key",
-        default="sk-4vGkTSWP4WmCIQaiY1fthMExZHJL5aDl2Ad8QmtZiGcJYJzS",
+        default="REPLACE_WITH_API_KEY",
         help="可选，显式传入 API Key。未提供时会尝试读取环境变量或 chatgpt_api.py。",
     )
     parser.add_argument(

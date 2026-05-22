@@ -75,7 +75,7 @@ def call_llm(content: str) -> str:
     需要环境变量 CHATANYWHERE_API_KEY 提供 API Key。
     """
     # api_key = os.getenv("CHATANYWHERE_API_KEY", "").strip()
-    api_key = "sk-4vGkTSWP4WmCIQaiY1fthMExZHJL5aDl2Ad8QmtZiGcJYJzS"
+    api_key = "REPLACE_WITH_API_KEY"
     if not api_key:
         raise RuntimeError("环境变量 CHATANYWHERE_API_KEY 未设置，无法调用大模型 API。")
 
